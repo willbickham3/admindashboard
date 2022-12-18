@@ -20,8 +20,7 @@ body {
     grid-template-rows: 0.2fr 1fr 0.5fr;
     padding: 5%;
     gap: 30px;
-    padding-bottom: 300px;
-    padding-left: 30px;
+    padding-bottom: 350px;
 }
 
 .header {
@@ -40,14 +39,15 @@ body {
     list-style-image: url("../Images/artstation.png");
     font-size: 22px;
     display: grid;
-    grid-template-columns: 65px 100px;
+    grid-template-columns: 60px 100px;
     align-items: center;
 }
 
 .home {
     display: grid;
-    gap: 10px;
     align-items: left;
+    padding-left: 30px;
+    font-size: 18px;
 }
 
 .home div {
@@ -58,8 +58,9 @@ body {
 
 .settings {
     display: grid;
-    gap: 10px;
     align-items: left;
+    padding-left: 30px;
+    font-size: 18px;
 }
 
 .settings div {

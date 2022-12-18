@@ -8,7 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     grid-template-columns: minmax(200px, 0.7fr) 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1.3fr 5fr;
 }
 
 .dashboard {
@@ -34,7 +34,6 @@ body {
 }
 
 .dash {
-    list-style-image: url("../Images/artstation.png");
     font-size: 22px;
     display: grid;
     grid-template-columns: 60px 100px;

@@ -26,6 +26,12 @@ body {
     grid-column: 2/3;
     background-color: #FFFAFA;
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5 1fr;
+    
+    padding-left: 40px;
+    padding-right: 50px;
 }
 
 .main {
@@ -64,4 +70,58 @@ body {
     display: grid;
     align-items: center;
     grid-template-columns: 30px 50px;
+}
+
+.search {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2vw 25vw;
+    gap: 30px;
+}
+
+.welcome {
+    grid-column: 1;
+    grid-row: 2;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 5fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 15px;
+}
+
+.welcome img {
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.Hi {
+    align-self: flex-end;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.user-name {
+    align-self: flex-start;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.alert {
+    display: grid;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    padding-top: 4vh;
+    gap: 20px;
+}
+
+.nav button {
+    font-size: 1vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF6347;
+    padding: 5%
 }

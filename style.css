@@ -223,6 +223,12 @@ body {
     padding-left: 30px;
 }
 
+.trending > * {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+}
+
 .trend {
     font-size: 22px;
 }

@@ -153,8 +153,39 @@ body {
     width: 5vw;
 }
 
-.projects {
+.column-1 {
+    display: grid;
+    grid-template-rows: ;
+}
 
+.column-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-rows: 0.04fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 100%;
+}
+
+.projects div {
+    background-color: white;
+    width: 100%;
+}
+
+.announce {
+    display: grid;
+    grid-template-rows: 0.08fr 1fr;
 }
 
 .announcement-label {
@@ -166,6 +197,11 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     background-color: whitesmoke;
     width: 15vw;
+}
+
+.trend-container {
+    display: grid;
+    grid-template-rows: 0.08fr 1fr;
 }
 
 .trending {

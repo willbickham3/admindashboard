@@ -1,2 +1,5 @@
 # admindashboard
 Admin Dashboard - The Odin Project
+
+
+This project really brought me into the space of grid as I completed the entire page in CSS grid. It was one of the more fun projects in my mind because I could "work" on it even being away from my PC. I could visualize, move the objects and structure the page in my head. It also gave me a break from using flexbox. Working on this project gave me a deeper understanding of how attributes like padding can affect how EVERYTHING sits on the page. Whether its pushed further down or to the side giving me a scrollbar in either direction. I also tried to think more critically when doing this project and not throw a bunch of code at it until it worked. I wanted to have the code I DID write actually be necessary. I think I will revisit this project at some point and add some page functionality to it with Javascript and maybe turn it into a premature portfolio page. I'm really excited for the future of learning as now I'm delving into a JS focus (that is unless I decide to detour on Ruby).

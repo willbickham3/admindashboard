@@ -189,10 +189,28 @@ body {
     width: 100%;
     border-radius: 8px;
     border-left: 8px solid goldenrod;
+    box-sizing: border-box;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
 }
 
 .projects-label {
     font-size: 19px;
+}
+
+.project-name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.project-description {
+    
+}
+
+.project-images {
+    justify-self: right;
 }
 
 .announce {

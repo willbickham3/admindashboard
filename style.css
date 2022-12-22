@@ -229,6 +229,11 @@ body {
     padding-left: 30px;
 }
 
+.title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
 .trend-container {
     display: grid;
     grid-template-rows: 0.08fr 1fr;

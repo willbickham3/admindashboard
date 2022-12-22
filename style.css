@@ -232,7 +232,7 @@ body {
 
 .trending > * {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.15fr 1fr;
     align-items: center;
 }
 

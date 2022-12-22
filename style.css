@@ -190,7 +190,7 @@ body {
     border-radius: 8px;
     border-left: 8px solid goldenrod;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 1fr 0.2fr;

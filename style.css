@@ -224,9 +224,19 @@ body {
     background-color: whitesmoke;
     width: 90%;
     border-radius: 6px;
-    align-items: center;
     box-sizing: border-box;
-    padding-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.announcements > div {
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+
+.first-announcement, .second-announcement {
+    border-bottom: 1px solid gray;
 }
 
 .title {

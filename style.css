@@ -6,7 +6,7 @@ body {
 .container {
     display: grid;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     grid-template-columns: minmax(200px, 0.7fr) 4fr;
     grid-template-rows: 1.3fr 5fr;
 }
@@ -121,7 +121,7 @@ body {
 
 .alert {
     display: grid;
-    grid-template-columns:  40px 80px 200px;
+    grid-template-columns:  0.4fr 0.6fr 2fr;
     align-items: center;
     justify-items: flex-end;
     padding-top: 10px;
@@ -150,7 +150,7 @@ body {
     border: none;
     background-color: #FF6347;
     padding: 5%;
-    width: 5vw;
+    width: 100%;
 }
 
 .column-1 {
@@ -201,7 +201,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: whitesmoke;
-    width: 15vw;
+    width: 90%;
     border-radius: 6px;
     align-items: center;
     box-sizing: border-box;
@@ -216,7 +216,7 @@ body {
 .trending {
     display: grid;
     background-color: white;
-    width: 15vw;
+    width: 90%;
     border-radius: 6px;
     box-sizing: border-box;
     align-items: center;
